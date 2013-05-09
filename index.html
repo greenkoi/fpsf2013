@@ -1,0 +1,377 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>jQuery Mobile Web App</title>
+<link href="jquery-mobile/jquery.mobile.theme-1.3.1.min.css" rel="stylesheet" type="text/css"/>
+<link href="jquery-mobile/jquery.mobile.structure-1.3.1.min.css" rel="stylesheet" type="text/css"/>
+<script src="jquery-mobile/jquery-1.9.1.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+  $(document).bind("mobileinit",function(){
+		$.mobile.page.prototype.options.addBackBtn = true;		
+	});
+</script>
+<script src="jquery-mobile/jquery.mobile-1.3.1.min.js" type="text/javascript"></script>
+</head> 
+<body> 
+
+<div data-role="page" id="page">
+	<div data-role="header">
+		<h1>Free Press Summer Fest</h1>
+	</div>
+	<div data-role="content">	
+		<ul data-role="listview">
+			<li><a href="#Schedule" data-transition="flip">Schedule</a></li>
+            <li><a href="#Safety" data-transition="flip">Safety First!</a></li>
+            <li><a href="#Info" data-transition="flip">General Information</a></li>
+			<li><a href="#page5" data-transition="flip">What to Bring</a></li>
+            <li><a href="#page6" data-transition="flip">What NOT to Bring</a></li>            
+		</ul>		
+	</div>
+	<div data-role="footer" data-theme="b">
+		<h4>2013 Free Press Summer Fest</h4>
+	</div>
+<div class="tag_block">#FPSF</div>
+</div>
+
+<div data-role="page" id="Schedule">
+	<div data-role="header">
+		<h1>Schedule</h1>
+	</div>
+	<div data-role="content">	
+    <ul data-role="listview">
+      <li><a href="#Saturday" data-transition="flip">Saturday</a></li>
+      <li><a href="#Sunday" data-transition="flip">Sunday</a></li>
+    </ul>
+</div>
+	<div data-role="footer">
+    <h4>2013 Free Press Summer Fest</h4>
+	</div>
+<div class="tag_block">#FPSF</div>
+</div>
+
+<div data-role="page" id="Info">
+	<div data-role="header">
+		<h1>General Info</h1>
+	</div>
+	<div data-role="content">
+	  <p>WHEN: JUNE 1 &amp; 2, 2013, 11AM-10PM</p>
+	  <p>THE FESTIVAL WILL TAKE PLACE RAIN OR SHINE, UNLESS OTHERWISE POSTED.</p>
+	  <p>WHERE: 500 ALLEN PARKWAY AT ELEANOR TINSLEY PARK IN HOUSTON, TX</p>
+	  <p>CHILDREN UNDER 5 GET IN FREE.</p>
+	  <p>FREE PRESS SUMMER FEST IS AN ALL AGE EVENT.</p>
+	  <p>VALID ID MUST BE PRESENTED TO GET A 21+ WRISTBAND.</p>
+	  <p>WHEELCHAIR ACCESS IS AVAILABLE. IF YOU NEED ASSISTANCE, PLEASE ASK A GATE ATTENDANT.</p>
+	  <p>CAMPING/OVERNIGHT STAYS ON FESTIVAL GROUNDS ARE NOT PERMITTED.</p>
+	  <h4>Entry / Passes</h4>
+	  <p>TICKET/PURCHASE QUESTIONS REGARDING YOUR PASS? PLEASE SEE STUBWIRE'S CUSTOMER HELP &amp; SUPPORT PAGE.</p>
+	  <p>PASSES WILL BE SOLD ONLINE, AT AREA RETAILERS, AND AT THE GATE THE DAYS OF THE FESTIVAL. PRICES ARE SUBJECT TO INCREASE.</p>
+	  <p>NO INDIVIDUAL DAY PASSES WILL BE SOLD.</p>
+	  <p>PASSES ALLOW ACCESS TO BOTH DAYS OF THE WEEKEND FESTIVAL.</p>
+	  <p>RE-ENTRY IS ALLOWED WITH WRISTBAND.</p>
+	  <p>YOUR PASS WILL BE EXCHANGED FOR A WRISTBAND THAT MUST BE WORN FOR THE DURATION OF THE WEEKEND IN ORDER TO BE ALLOWED ENTRY AND RE-ENTRY TO THE FEST. CAPICHE? ANY SIGN OF TAMPERING OR WRISTBANDS WORN TOO LOOSE WITH BE CHECKED AGAINST THE BUYER'S NAME AND CONFISCATED IF MISUSE IS DETERMINED.</p>
+	  <p>ALL PASS SALES ARE FINAL, HOWEVER UPGRADES ARE PERMITTED.</p>
+	  <p>PLEASE NOTE THAT NO LOST OR STOLEN PASSES WILL BE REPLACED. YOU MUST PURCHASE ANOTHER PASS TO GAIN ENTRY.</p>
+	  <p>POP QUIZ: CAN YOU REMOVE YOUR WRISTBAND OR WOULD IT BE REALLY BOO BOO IF YOU TOOK IT OFF?</p>
+	  <p>PASSES PURCHASED THROUGH UNAUTHORIZED DEALERS WILL BE CONSIDERED COUNTERFEIT AND VOID.</p>
+	  <p>AFTER PARTIES ARE LOCATED AT FITZGERALD'S. MORE INFORMATION WILL BE ANNOUNCED SHORTLY. GET YOUR AFTER PARTY WRISTBAND WHEN YOU MAKE YOUR PASS PURCHASE ONLINE FOR A DISCOUNT.</p>
+
+	</div>
+	<div data-role="footer">
+    <h4>2013 Free Press Summer Fest</h4>
+	</div>
+<div class="tag_block">#FPSF</div>
+</div>
+
+<div data-role="page" id="Safety">
+	<div data-role="header">
+		<h1>Safety First!</h1>
+	</div>
+	<div data-role="content">
+	  <p>OUR FIRST AID TEAM AND MEDICS ARE VOLUNTEERS, EMPLOYEES AND/OR SPONSORS OF THE FESTIVAL AND ARE ON SITE TO ASSIST YOU, NOT ARREST YOU. REFUSAL OF MEDICAL ATTENTION, ESPECIALLY IN THE HOUSTON HEAT AND HUMIDTY, CAN BE FATAL.</p>
+	  <p>PLEASE MAKE NOTE OF THE VARIOUS FIRST AID STATIONS WHICH ARE STAFFED BY VOLUNTEER MEDICS.</p>
+	  <p>IF YOU OR A FRIEND NEED MEDICAL ASSISTANCE AND ARE UNABLE TO LOCATE OR SAFELY WALK TO A FIRST AID STATION, RAISE YOUR HAND AND ASK SOMEONE TO LOCATE THE NEAREST STAFF MEMBER OR VOLUNTEER. EVERYONE IS TRAINED TO HELP YOU PROMPTLY FIND HELP.</p>
+	  <h4>IMPORTANT HEAT EXHAUSTION PREVENTION</h4>
+	  <p>HOUSTON IS HOT AND HUMID DURING THE SUMMER AND WHILE EVERYONE SHOULD DO THEIR BEST TO HAVE A GREAT TIME, YOU SHOULD ALSO TAKE PRECAUTIONS TO PREVENT HEAT RELATED ILLNESSES AND KEEP AN EYE OUT FOR OTHERS WHO MIGHT BE EXPERIENCING HEAT EXHAUSTION OR HEAT STROKE. WE HAVE A LARGE MEDICAL TEAM AND FIRST AID STATIONS THROUGHOUT THE FESTIVAL. SHOULD YOU OR SOMEONE ELSE NEED MEDICAL ATTENTION, JUST ASK THE NEAREST PERSON TO YOU TO FIND ANY OF OUR STAFF MEMBERS WHO CAN ASSIST YOU.</p> 
+<p><a href="#Heatstroke">CLICK HERE FOR SIGNS AND SYMPTOMS OF HEAT RELATED HEALTH ISSUES.</a></p>
+	  <p>PREVENT HEAT EXHAUSTION AND HEATSTROKE BY WEARING LIGHT COLORED, LOOSE FITTING CLOTHES; DRINK PLENTY OF WATER- IF YOU'RE NOT PEEING EVERY FEW HOURS, YOU MIGHT BE DEHYDRATED; WEAR SUNSCREEN AND A HAT; TAKE A BREAK IN THE SHADE IF YOU FEEL LIKE THE HEAT IS GETTING TO YOU.</p>
+	</div>
+	<div data-role="footer">
+    <h4>2012 Free Press Summer Fest</h4>
+	</div>
+<div class="tag_block">#FPSF</div>
+</div>
+
+<div data-role="page" id="page5">
+	<div data-role="header">
+		<h1>What To Bring</h1>
+	</div>
+	<div data-role="content">	
+	  <p><strong>CASH ! Small Bills. Seriously folks. Over $600000 was withdrawn from ATMs last year. Do you want to wait in line for cash? Then also wait in line to get your card swiped for food, drinks and memorabilia? This helps everyone stand in line for less time. Please bring cash. Please.</strong></p>
+		<p>SUN FRIENDLY ITEMS SUCH AS A SWIMSUIT, COVER-UP, SUNBLOCK, SUNGLASSES, HATS, PERSONAL UMBRELLA.</p>
+		<p>YOU MAY BRING AN EMPTY WATER CONTAINER TO FILL AT THE FEST, SUCH AS A CAMELPAK.</p>
+		<p>PERSONAL CAMERAS ARE ALLOWED, AND THE RULE PROHIBITING DETACHABLE LENSES HAS BEEN LIFTED THIS YEAR SO BRING THEM AT YOUR OWN RISK. THE PROMOTERS RESERVE THE RIGHT TO USE PHOTOGRAPHS TAKEN AT THE EVENT IN PROMOTIONAL MATERIALS. </p>
+		<p>TOWEL OR BLANKET FOR SITTING (NO CHAIRS).</p>
+		<p>CASH (SMALL BILLS) AND CREDIT CARDS. CASH WILL BE ACCEPTED FOR FOOD, DRINKS, AND MEMORABILIA, AND IN SOME LOCATIONS CREDIT CARDS WILL BE ACCEPTED AS WELL. THERE IS NO NEED TO PURCHASE FOOD/DRINK TICKETS FIRST. ATMS WILL BE AVAILABLE THROUGHOUT THE FEST GROUNDS AS WELL.</p>
+		<p>WATERPROOF BAGGIES FOR STORING ELECTRONICS</p>
+	</div>
+	<div data-role="footer">
+    <h4>2013 Free Press Summer Fest</h4>
+	<div class="tag_block">#FPSF</div>
+    </div>
+</div>
+
+<div data-role="page" id="page6">
+	<div data-role="header">
+		<h1>What NOT to Bring</h1>
+	</div>
+	<div data-role="content">
+	  <p>SECURITY WILL BE CHECKING BAGS AND CONFISCATING PROHIBITED ITEMS AT GATE.</p>
+	  <p>AS PER REQUIREMENTS BY THE CITY OF HOUSTON, NO WATER, OR ANY OTHER LIQUID OR FOOD IS ADMITTED. THERE WILL BE PLENTY OF WATER AVAILABLE FOR FREE AND FOR SALE. EMPTY CAMEL PACKS OR REUSABLE NON-GLASS WATER THERMOSES ARE ALLOWED AND CAN BE FILLED ONCE IN THE FEST, BUT MUST BE PROVED EMPTY UPON ENTRANCE. AGAIN, NO OUTSIDE FOOD OR DRINKS, INCLUDING NO WATER OR WATER BOTTLES, SEALED OR UNSEALED.</p>
+	  <p>NO PETS OF ANY KIND ALLOWED.</p>
+	  <p>NO COOLERS.</p>
+	  <p>NO CANOPIES, TENTS, OR OTHER BIG POINTY OBSTRUCTIONS. </p>
+	  <p>NO MOTORIZED VEHICLES.</p>
+	  <p>NO WEAPONS. </p>
+	  <p>NO PROFESSIONAL PHOTOGRAPHY, VIDEO, OR AUDIO RECORDING EQUIPMENT. DETACHABLE LENSES ARE OKAY. IMAGES TAKEN AT THE FESTIVAL MAY BE USED FOR FESTIVAL PROMOTIONAL PURPOSES. </p>
+	  <p>NO UNAUTHORIZED VENDING, SALES, SOLICITATIONS, OR PROMOTIONS.</p>
+</div>
+	<div data-role="footer">		<h4>2013 Free Press Summer Fest</h4>
+	</div>
+<div class="tag_block">#FPSF</div>
+</div>
+
+<div data-role="page" id="Saturday">
+  <div data-role="header">
+    <h1>Saturday June 1</h1>
+  </div>
+  <div data-role="content">
+  <h4>STAGE 1</h4>
+
+	  <p>11:10 <span class="BandOrange">G.WIZZ</span><br>
+12:10 TRVP LORDZ FT/ BUDA LOVE<br> 
+1:10
+<span class="BandOrange">LA CATRIN &amp; THE DEM DAMN DAMES</span><br> 
+2:10 PAUL WALL<br> 
+3:40 QUAD CITY DJ'S
+<span class="BandOrange"></span><br>
+5:20 <span class="BandOrange">ACTION BRONSON</span><br>
+7:00 <span class="BandOrange">MORD FUSTANG</span><br>
+    </p>
+
+      <h4>STAGE 2</h4>
+
+	  <p>11:40 <span class="BandOrange">BORN AGAIN VIRGINS</span><br>
+	  12:40 <span class="BandOrange">BLACKMARKET SYNDICATE</span><br>
+	  1:40 <span class="BandOrange">THE NICEGUYS</span><br>
+	  3:00 <span class="BandOrange">NICK GREER &amp; THE G'S</span><br>
+	  4:30 BRANDON WEST AND THE BLACK HATS<span class="BandOrange"></span><br>
+	  6:10 WHEELER BROTHERS<span class="BandOrange"></span><br>
+	  </p>
+
+	    <h4>STAGE 3</h4>
+
+	  <p>11:40 <span class="BandOrange">THE BEANS</span><br>
+	  12:40 <span class="BandOrange">BUXTON</span><br>
+	  2:10 <span class="BandOrange">JAPANDROIDS</span><br>
+	  3:50 <span class="BandOrange">ALABAMA SHAKES</span><br>
+	  5:40 <span class="BandOrange">ARCTIC MOKEYS</span><br>
+	  7:30 <span class="BandOrange">PASSION PIT</span><br>
+    9:00 <span class="BandOrange">CALVIN HARRIS</span></p>
+
+	    <h4>STAGE 4</h4>
+	  <p>11:10 SNOW IN TEXAS<span class="BandOrange"></span><br>
+	  12:10 <span class="BandOrange">CHASE HAMBLIN &amp; THE ROUSTABOUTS</span><br>
+	  1:20 <span class="BandOrange">MIDNIGHT NORMA LANE</span><br>
+	  2:40 <span class="BandOrange">CHIN XAOU TI WON</span><br>
+	  4:50 <span class="BandOrange">HELLO CHIEF</span><br>
+	  6:40 <span class="BandOrange">YOUNG MAMMALS</span><br>
+	  8:20 <span class="BandOrange">A PLACE TO BURY STRANGERS</span><br>
+	  </p>
+	  <h4>STAGE 5</h4>
+	  <p>11:10 <span class="BandOrange">DEEP CUTS</span><br>
+	  12:00 <span class="BandOrange">INIFINITE APACHES</span><br>
+	  12:50 <span class="BandOrange">JANDEK</span><br>
+	  2:00 <span class="BandOrange">VINTAGE TROUBLE</span><br>
+	  3:40 <span class="BandOrange">GETO BOYS</span><br>
+	  5:20 <span class="BandOrange">THE MAVERICKS</span><br>
+	  7:00 <span class="BandOrange">THE HEAD AND THE HEART</span><br>
+	  8:50 <span class="BandOrange">THE POSTAL SERVICE</span><br>
+	  </p>
+	  <h4>STAGE 6</h4>
+	  11:30 <span class="BandOrange">RIVERS</span><br>
+	  12:20 <span class="BandOrange">A SEA ES</span><br>
+	  1:30 <span class="BandOrange">AMERICAN FANGS</span><br>
+	  2:50 <span class="BandOrange">PAUL BANKS (FROM INTERPOL)</span><br>
+	  4:30 <span class="BandOrange">2 CHAINZ</span><br>
+	  6:10 <span class="BandOrange">BORGORE</span><br>
+	  7:50 <span class="BandOrange">IGGY AND THE STOOGES</span><br>
+
+  </div>
+  <div data-role="footer">
+    <h4>2013 Free Press Summer Fest</h4>
+  </div>
+<div class="tag_block">#FPSF</div>
+</div>
+
+
+
+  <div data-role="page" id="Sunday">
+    <div data-role="header">
+      <h1>Sunday June 2</h1>
+    </div>
+    <div data-role="content">
+    
+      <h4>STAGE 1</h4>
+    11:10 <span class="BandOrange">DISCO DADDIES</span><br>
+    12:40 <span class="BandOrange">DOUCHBERRY</span><br>
+    1:40 <span class="BandOrange">UZOY</span><br>
+    2:40 <span class="BandOrange">SAVOY</span><br>
+    4:10 <span class="BandOrange">SUPER MASH BROS</span><br>
+    5:40 <span class="BandOrange">DEVING THE DUDE</span><br>
+    7:10 <span class="BandOrange">KITTY PRIDE</span>
+    8:20 <span class="BandOrange">MACHINE GUN KELLY</span>
+  <h4>STAGE 2</h4>
+    12:10 <span class="BandOrange">SHOWERS</span><br>
+    1:10 <span class="BandOrange">EMILY BELL</span><br>
+    2:10 <span class="BandOrange">MIKEY & THE DRAGS</span><br>
+    3:20 <span class="BandOrange">KOPECKY FAMILY BAND</span><br>
+    4:40 <span class="BandOrange">JOHN MICHAEL ROUCHELL</span><br>
+	6:20 <span class="BandOrange">MILO GREENE</span>
+	7:50 <span class="BandOrange">DUNETX</span>
+
+  <h4>STAGE 3</h4>
+	11:40 <span class="BandOrange">THE SUFFERS</span><br>
+	12:40 <span class="BandOrange">KASHMERE STAGE BAND</span><br>
+	2:20 <span class="BandOrange">MAVIS STAPLES</span><br>
+	4:00 <span class="BandOrange">CAT POWER</span><br>
+	5:40 <span class="BandOrange">OF MONSTERS AND MEN</span><br>
+	7:20 <span class="BandOrange">TV ON THE RADIO</span><br>
+	9:00 <span class="BandOrange">BASSNECTAR</span><br>
+
+<h4>STAGE 4</h4>
+  <p>11:10 <span class="BandOrange">ORENTS STIRNER</span><br>
+    12:10 <span class="BandOrange">FORCED FEM</span><br>
+    1:40 <span class="BandOrange">OTENKI</span><br>
+    3:10 <span class="BandOrange">DJ SUN</span><br>
+    5:00 <span class="BandOrange">HALF MOON RUN</span><br>
+    6:40 <span class="BandOrange">THE MEN</span><br>
+    8:20 <span class="BandOrange">THE OCTOPUS PROJECT</span><br>
+
+  <h4>STAGE 5</h4>
+    11:10 <span class="BandOrange">OMOTAI</span><br>
+    12:10 <span class="BandOrange">BLACK CONGRESS</span><br>
+    1:20 <span class="BandOrange">BARONESS</span><br>
+    3:00 <span class="BandOrange">THE BRONX</span><br>
+    4:40 <span class="BandOrange">MATT & KIM</span><br>
+    6:20 <span class="BandOrange">MACKLEMORE AND RYAN LEWIS</span><br>
+    8:00 <span class="BandOrange">GOGOL BORDELLO</span><br>
+
+  <h4>STAGE 6</h4>
+    11:30 <span class="BandOrange">ASHES OF BABYLON</span><br>
+    12:40 <span class="BandOrange">UMA</span><br>
+    2:10 <span class="BandOrange">DAWES</span><br>
+    3:50 <span class="BandOrange">LOS AMIGOS INVISIBLES</span><br>
+    5:30 <span class="BandOrange">SOJA</span><br>
+    7:10 <span class="BandOrange">GRACE POTTER AND THE NOCTURNALS</span><br>
+    9:00 <span class="BandOrange">SOCIAL DISTORTION</span><br>
+
+ 
+      <h4>STAGE 7</h4>
+        12:30 <span class="BandOrange">BLACK COFFEE</span><br>
+        1:30 <span class="BandOrange">SCHMILLION</span><br>
+        2:30 <span class="BandOrange">THE ELECTRIC PRIMADONNAS</span><br>
+        3:30 <span class="BandOrange">THE SMALL SOUNDS</span><br>
+        4:30 <span class="BandOrange">NEW YORK CITY QUEENS</span><br>
+        5:30 <span class="BandOrange">THE SOUR NOTES</span><br>
+        6:30 <span class="BandOrange">THE WATERMARKS</span><br>
+        7:30 <span class="BandOrange">THE TONTONS</span><br>
+
+      <h4>SHFL STAGE</h4>
+      12:00 <span class="BandOrange">IMMIGRANT PUNK</span><br>
+      1:00 <span class="BandOrange">THE ANARCHITEX</span><br>
+      2:00 <span class="BandOrange">BLACK MAGIC MARKER</span><br>
+      2:15 <span class="BandOrange">MUZAK JOHN</span><br>
+      2:30 <span class="BandOrange">DEMONIC HEN</span><br>
+      3:00 <span class="BandOrange">THE GRASS SKIRTS</span><br>
+      4:00 <span class="BandOrange">JODY SEABODY AND THE WHIRLS</span><br>
+      5:00 <span class="BandOrange">DARWIN'S FINCHES</span><br>
+      6:00 <span class="BandOrange">GIANT BATTLE MONSTER</span>
+    
+    </div>
+    <div data-role="footer">
+      <h4>2013 Free Press Summer Fest</h4>
+    </div>
+<div class="tag_block">#FPSF</div>
+  </div>
+
+
+<div data-role="page" id="Heatstroke">
+    <div data-role="header">
+      <h1>Hot Weather Safety</h1>
+    </div>
+    <div data-role="content">
+      <h4>Prevent heat exhaustion and heatstroke by wearing light colored, loose fitting clothes; drink plenty of water; wear sunscreen and a hat; take a break in the shade if you feel like the heat is getting to you.</h4>
+      <p><strong>Heat exhaustion</strong>: Causes include exposure to high temperatures, particularly when combined with high humidity, and strenuous activity. Other causes are dehydration, alcohol use, &amp; dressing in clothes made of synthetic material.  Without prompt treatment, heat exhaustion can progress to heatstroke, a lifethreatening condition. <br>
+      </p>
+      <p><strong>Signs/Symptoms:</strong></p>
+      <ul>
+        <li>Cool, moist skin with goose bumps when in the heat</li>
+        <li>Heavy sweating</li>
+        <li>Faintness</li>
+        <li>Dizziness</li>
+        <li>Fatigue</li>
+        <li>Thirst</li>
+        <li>Weak, rapid pulse</li>
+        <li>Low blood pressure upon standing</li>
+        <li>Muscle cramps</li>
+        <li>Nausea</li>
+        <li>Headache<br>
+        </li>
+      </ul>
+      <p><strong>If you think that you are experiencing heat exhaustion:</strong><br>
+      </p>
+      <ul>
+        <li>Stop all activity and rest, loosen clothing</li>
+        <li>Move to a cooler place</li>
+        <li>Drink cool water or sports drinks</li>
+        <li>Apply cool water to skin</li>
+        <li>Go to ER if your symptoms worsen, do not improve within 1 hr. or if your temp is 104 F.
+        </h4>
+        </li>
+      </ul>
+      <p><strong>Heatstroke</strong>: Cause is untreated heat exhaustion.  Heatstroke is a life-threatening condition that occurs when your body temperature reaches 104 F (40 C) or higher.  Heatstroke requires immediate medical care to prevent permanent damage to the brain other vital organs that can result in death. </p>
+      <p><strong>Signs/Symptoms</strong>:
+        Temperature as high as 104, mental confusion, personality changes, &amp; hot dry skin. <br>
+      </p>
+      <ul>
+        <li>Rapid heartbeat</li>
+        <li>Rapid and shallow breathing</li>
+        <li>Elevated or lowered blood pressure</li>
+        <li>Cessation of sweating</li>
+        <li>Irritability, confusion or unconsciousness</li>
+        <li>Feeling dizzy or lightheaded </li>
+        <li>Headache </li>
+        <li>Nausea </li>
+        <li>Fainting may be the first sign in older adults<br>
+        </li>
+      </ul>
+      <p><strong>If you suspect heat stroke:</strong><br>
+      </p>
+      <ul>
+        <li>Move the person out of the sun and into a shady or air-conditioned space.</li>
+        <li>Call emergency medical help</li>
+        <li>Cool the person by covering him or her with damp sheets or by spraying with cool water.</li>
+        <li>Direct air onto the person with a fan <br>
+          Have the person drink cool water or other nonalcoholic beverage without caffeine, if he or she is able.</li>
+      </ul>
+  </div>
+
+
+  <div data-role="footer">
+      <h4>2013 Free Press Summer Fest</h4>
+    </div>
+<div class="tag_block">#FPSF</div>
+</div>
+</body>
+</html>
